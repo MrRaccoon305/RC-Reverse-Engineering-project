@@ -1,0 +1,116 @@
+WEBSITE DESIGN PROMPT — RC Car Reverse Engineering Project
+===========================================================
+
+CONTEXT
+-------
+This is a first-year university engineering project completed at Birmingham City University (BCU).
+The project involved reverse engineering a 1/10 scale Electric Radio-Controlled Trophy Truck
+(FTX Zorro model) to understand how and why it was designed the way it is.
+
+The website is a personal/portfolio showcase for the project lead: Ryno Meiring (Team Leader, Group 201).
+
+
+PROJECT SUMMARY
+---------------
+The team disassembled, analysed, CAD-modelled, reassembled, tested, and improved a 1/10 FTX Zorro
+electric RC Trophy Truck. The truck had a 3rd-party brushless motor (not the original) installed
+by its previous owner, which caused a critical overheating problem discovered during testing.
+
+The team solved the problem by designing a custom roof air scoop and windshield deflector (3D
+prototyped through multiple iterations) to redirect airflow over the motor to cool it down.
+
+
+TEAM
+----
+- Ryno Meiring — Team Leader (organisation, CAD quality control, Gantt charts, BOM, research)
+- MD Affan Mahdeen Haque — Powertrain & environmental impact research
+- Artjom Timofejev — Electronics research (ESC, motor, battery, BEC, servo)
+- Oscar Hook Evans — Suspension research
+
+
+KEY PROJECT PHASES (use these as website sections/pages)
+---------------------------------------------------------
+1. INTRODUCTION / OVERVIEW
+   - FTX Zorro 1/10 Electric Trophy Truck chosen for its blend of mechanical and electrical systems
+   - Goal: understand design decisions made by the original engineers
+   - Team of 4 students from 4 different countries (EDI survey conducted at start)
+
+2. DISASSEMBLY & ANALYSIS
+   - Truck disassembled part by part; ~50 key components identified
+   - Each part questioned: what does it do? why was it designed this way?
+   - Similarities found to real full-size vehicles (driveshaft, suspension, chassis layout)
+
+3. CAD MODELLING (Fusion 360)
+   - All ~50 key parts modelled in CAD — approx. 120 hours of total work
+   - Colour-coded by system: chassis, suspension, powertrain, steering
+   - Quality control process: all parts verified against real measurements
+   - Bill of Materials (BOM) created to support assembly/disassembly
+
+4. KEY SYSTEMS EXPLAINED
+   a. Chassis — rigid off-road frame designed for high-speed rough terrain
+   b. Suspension — double-wishbone style, similar to real trophy trucks; includes sway bars
+   c. Powertrain — CVD driveshafts front and rear; central gearbox; 4WD
+   d. Electronics:
+      - LiPo battery (voltage = speed, mAh = run time)
+      - Brushless motor with KV rating (~3000KV × 8.4V = ~25,200 RPM)
+      - ESC (Electronic Speed Controller) — programmable
+      - BEC (Battery Elimination Circuit) — steps down voltage for servo/receiver
+      - Radio receiver & steering servo
+
+5. TESTING & PROBLEM DISCOVERY
+   - Motor overheated to 3× ambient temperature during testing
+   - Diagnosed using a FLIR E8xt Thermal Camera (thermal imaging)
+   - Root cause: 3rd-party motor lacked sufficient torque at startup, causing excess heat
+
+6. IMPROVEMENT DESIGN (Air Scoop & Windshield)
+   - Solution: force airflow over the motor using a roof-mounted air scoop
+   - Challenge: at speed, airflow bypasses the roof — passes through the windshield opening instead
+   - Fix: design a windshield deflector to redirect airflow up into the scoop and down onto the motor
+   - Multiple prototypes designed and iterated (Prototype 1 → 2 → 3 → Final)
+   - Benefits of cooling: prevents thermal stress, shorter lifespan, performance loss, and failure
+
+7. CONCLUSION / REFLECTION
+   - Engineering requires out-of-the-box thinking and teamwork
+   - Project management tools (Gantt charts, BOM, tracking spreadsheets) were critical
+   - Sharing automotive knowledge across the team improved outcomes
+
+
+DESIGN DIRECTION
+----------------
+- Feel: professional portfolio — not childish, not overly corporate
+- Typography: modern sans-serif (e.g. Inter, Roboto, or similar)
+- Include image galleries for: the physical truck, CAD model renders, thermal camera images,
+  air scoop prototype drawings/photos
+
+
+
+
+CONTACT / FOOTER
+----------------
+- Name: Ryno Meiring
+- Email: ryno.meiring@mail.bcu.ac.uk
+- LinkedIn: Ryno Meiring (BCU)
+- University: Birmingham City University
+- Project year: 2023/2024
+
+
+ASSETS AVAILABLE
+----------------
+- Photos of the physical RC car and its parts (196 images across chassis, suspension, powertrain, etc.)
+- CAD model screenshots/renders (Fusion 360)
+- FLIR thermal camera images showing motor overheating
+- Air scoop prototype drawings (Prototype 1, 2, 3, Final — available as JPG and PDF)
+- Thumbnail/hero image of the truck
+- Bill of Materials diagram (BOM.drawio.pdf)
+- RC electrical system diagram (RC Diagram Final.pdf)
+- FTX Zorro manual reference images
+
+
+NOTES FOR THE AI
+----------------
+- The RC car model is: FTX Zorro 1/10 4WD Electric Trophy Truck
+- The improvement (air scoop + windshield) is the most unique and impressive part of the project —
+  give it prominent visual treatment
+- The CAD work (~120 hours) demonstrates serious technical effort — worth emphasising
+- This is a reverse engineering project, not a build-from-scratch project — the narrative is
+  about understanding and improving an existing product
